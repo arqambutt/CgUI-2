@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBC50C01EEA71BA001D580E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC50BF1EEA71BA001D580E /* AppDelegate.swift */; };
+		2EBC50C21EEA71BA001D580E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC50C11EEA71BA001D580E /* ViewController.swift */; };
+		2EBC50C51EEA71BA001D580E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC50C31EEA71BA001D580E /* Main.storyboard */; };
+		2EBC50C71EEA71BA001D580E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC50C61EEA71BA001D580E /* Assets.xcassets */; };
+		2EBC50CA1EEA71BA001D580E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBC50C81EEA71BA001D580E /* LaunchScreen.storyboard */; };
+		2EBC50D51EEA71BA001D580E /* gabigateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC50D41EEA71BA001D580E /* gabigateTests.swift */; };
+		2EBC50E01EEA71BA001D580E /* gabigateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBC50DF1EEA71BA001D580E /* gabigateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EBC50D11EEA71BA001D580E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBC50B41EEA71BA001D580E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EBC50BB1EEA71BA001D580E;
+			remoteInfo = gabigate;
+		};
+		2EBC50DC1EEA71BA001D580E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EBC50B41EEA71BA001D580E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EBC50BB1EEA71BA001D580E;
+			remoteInfo = gabigate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EBC50BC1EEA71BA001D580E /* gabigate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gabigate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBC50BF1EEA71BA001D580E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EBC50C11EEA71BA001D580E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EBC50C41EEA71BA001D580E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EBC50C61EEA71BA001D580E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EBC50C91EEA71BA001D580E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EBC50CB1EEA71BA001D580E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBC50D01EEA71BA001D580E /* gabigateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gabigateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBC50D41EEA71BA001D580E /* gabigateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gabigateTests.swift; sourceTree = "<group>"; };
+		2EBC50D61EEA71BA001D580E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EBC50DB1EEA71BA001D580E /* gabigateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gabigateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBC50DF1EEA71BA001D580E /* gabigateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gabigateUITests.swift; sourceTree = "<group>"; };
+		2EBC50E11EEA71BA001D580E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EBC50B91EEA71BA001D580E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBC50CD1EEA71BA001D580E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBC50D81EEA71BA001D580E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EBC50B31EEA71BA001D580E = {
+			isa = PBXGroup;
+			children = (
+				2EBC50BE1EEA71BA001D580E /* gabigate */,
+				2EBC50D31EEA71BA001D580E /* gabigateTests */,
+				2EBC50DE1EEA71BA001D580E /* gabigateUITests */,
+				2EBC50BD1EEA71BA001D580E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EBC50BD1EEA71BA001D580E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC50BC1EEA71BA001D580E /* gabigate.app */,
+				2EBC50D01EEA71BA001D580E /* gabigateTests.xctest */,
+				2EBC50DB1EEA71BA001D580E /* gabigateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EBC50BE1EEA71BA001D580E /* gabigate */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC50BF1EEA71BA001D580E /* AppDelegate.swift */,
+				2EBC50C11EEA71BA001D580E /* ViewController.swift */,
+				2EBC50C31EEA71BA001D580E /* Main.storyboard */,
+				2EBC50C61EEA71BA001D580E /* Assets.xcassets */,
+				2EBC50C81EEA71BA001D580E /* LaunchScreen.storyboard */,
+				2EBC50CB1EEA71BA001D580E /* Info.plist */,
+			);
+			path = gabigate;
+			sourceTree = "<group>";
+		};
+		2EBC50D31EEA71BA001D580E /* gabigateTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC50D41EEA71BA001D580E /* gabigateTests.swift */,
+				2EBC50D61EEA71BA001D580E /* Info.plist */,
+			);
+			path = gabigateTests;
+			sourceTree = "<group>";
+		};
+		2EBC50DE1EEA71BA001D580E /* gabigateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EBC50DF1EEA71BA001D580E /* gabigateUITests.swift */,
+				2EBC50E11EEA71BA001D580E /* Info.plist */,
+			);
+			path = gabigateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EBC50BB1EEA71BA001D580E /* gabigate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBC50E41EEA71BB001D580E /* Build configuration list for PBXNativeTarget "gabigate" */;
+			buildPhases = (
+				2EBC50B81EEA71BA001D580E /* Sources */,
+				2EBC50B91EEA71BA001D580E /* Frameworks */,
+				2EBC50BA1EEA71BA001D580E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gabigate;
+			productName = gabigate;
+			productReference = 2EBC50BC1EEA71BA001D580E /* gabigate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EBC50CF1EEA71BA001D580E /* gabigateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBC50E71EEA71BB001D580E /* Build configuration list for PBXNativeTarget "gabigateTests" */;
+			buildPhases = (
+				2EBC50CC1EEA71BA001D580E /* Sources */,
+				2EBC50CD1EEA71BA001D580E /* Frameworks */,
+				2EBC50CE1EEA71BA001D580E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EBC50D21EEA71BA001D580E /* PBXTargetDependency */,
+			);
+			name = gabigateTests;
+			productName = gabigateTests;
+			productReference = 2EBC50D01EEA71BA001D580E /* gabigateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EBC50DA1EEA71BA001D580E /* gabigateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBC50EA1EEA71BB001D580E /* Build configuration list for PBXNativeTarget "gabigateUITests" */;
+			buildPhases = (
+				2EBC50D71EEA71BA001D580E /* Sources */,
+				2EBC50D81EEA71BA001D580E /* Frameworks */,
+				2EBC50D91EEA71BA001D580E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EBC50DD1EEA71BA001D580E /* PBXTargetDependency */,
+			);
+			name = gabigateUITests;
+			productName = gabigateUITests;
+			productReference = 2EBC50DB1EEA71BA001D580E /* gabigateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EBC50B41EEA71BA001D580E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Arqam Butt";
+				TargetAttributes = {
+					2EBC50BB1EEA71BA001D580E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2EBC50CF1EEA71BA001D580E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EBC50BB1EEA71BA001D580E;
+					};
+					2EBC50DA1EEA71BA001D580E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2EBC50BB1EEA71BA001D580E;
+					};
+				};
+			};
+			buildConfigurationList = 2EBC50B71EEA71BA001D580E /* Build configuration list for PBXProject "gabigate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EBC50B31EEA71BA001D580E;
+			productRefGroup = 2EBC50BD1EEA71BA001D580E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EBC50BB1EEA71BA001D580E /* gabigate */,
+				2EBC50CF1EEA71BA001D580E /* gabigateTests */,
+				2EBC50DA1EEA71BA001D580E /* gabigateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EBC50BA1EEA71BA001D580E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC50CA1EEA71BA001D580E /* LaunchScreen.storyboard in Resources */,
+				2EBC50C71EEA71BA001D580E /* Assets.xcassets in Resources */,
+				2EBC50C51EEA71BA001D580E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBC50CE1EEA71BA001D580E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBC50D91EEA71BA001D580E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EBC50B81EEA71BA001D580E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC50C21EEA71BA001D580E /* ViewController.swift in Sources */,
+				2EBC50C01EEA71BA001D580E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBC50CC1EEA71BA001D580E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC50D51EEA71BA001D580E /* gabigateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EBC50D71EEA71BA001D580E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC50E01EEA71BA001D580E /* gabigateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EBC50D21EEA71BA001D580E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EBC50BB1EEA71BA001D580E /* gabigate */;
+			targetProxy = 2EBC50D11EEA71BA001D580E /* PBXContainerItemProxy */;
+		};
+		2EBC50DD1EEA71BA001D580E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EBC50BB1EEA71BA001D580E /* gabigate */;
+			targetProxy = 2EBC50DC1EEA71BA001D580E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2EBC50C31EEA71BA001D580E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EBC50C41EEA71BA001D580E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EBC50C81EEA71BA001D580E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EBC50C91EEA71BA001D580E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EBC50E21EEA71BB001D580E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EBC50E31EEA71BB001D580E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EBC50E51EEA71BB001D580E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = gabigate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.gabigate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EBC50E61EEA71BB001D580E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = gabigate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.gabigate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2EBC50E81EEA71BB001D580E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gabigateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.gabigateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gabigate.app/gabigate";
+			};
+			name = Debug;
+		};
+		2EBC50E91EEA71BB001D580E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gabigateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.gabigateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gabigate.app/gabigate";
+			};
+			name = Release;
+		};
+		2EBC50EB1EEA71BB001D580E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gabigateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.gabigateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gabigate;
+			};
+			name = Debug;
+		};
+		2EBC50EC1EEA71BB001D580E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gabigateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arqambutt.gabigateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gabigate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EBC50B71EEA71BA001D580E /* Build configuration list for PBXProject "gabigate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBC50E21EEA71BB001D580E /* Debug */,
+				2EBC50E31EEA71BB001D580E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBC50E41EEA71BB001D580E /* Build configuration list for PBXNativeTarget "gabigate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBC50E51EEA71BB001D580E /* Debug */,
+				2EBC50E61EEA71BB001D580E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBC50E71EEA71BB001D580E /* Build configuration list for PBXNativeTarget "gabigateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBC50E81EEA71BB001D580E /* Debug */,
+				2EBC50E91EEA71BB001D580E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBC50EA1EEA71BB001D580E /* Build configuration list for PBXNativeTarget "gabigateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBC50EB1EEA71BB001D580E /* Debug */,
+				2EBC50EC1EEA71BB001D580E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EBC50B41EEA71BA001D580E /* Project object */;
+}
